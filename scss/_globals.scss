@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: $darkMain;
+}
+
+.grilla {
+    display: grid;
+    height: 1066px;
+
+    .grilla ul a:hover {
+        color: $cyanPink;
+    }
+}
+
+
+.textoRosa{
+    color: $cyanPink;
+}
+
+.textoBlanco {
+    color: $white;
+    text-align: center;
+}
+
+.textoPrimario {
+    background-image: linear-gradient(90deg,$violet,$cyanPink 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    li {
+        font-size: 15px;
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}
+
+
+
+
+nav li a {
+    color: $white;
+    font-size: 16px;
+}
+
+.logo a {
+    color: $white;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+}
