@@ -1,0 +1,16 @@
+.textoBlancoEx {
+    color: $white;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo a{
+    @extend .textoBlancoEx;
+}
+
+nav li a {
+    @extend .textoBlancoEx;
+    font-size: 16px;
+}

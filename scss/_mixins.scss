@@ -1,0 +1,22 @@
+@mixin textoPrimarioMix ($colorLetra, $colorFondo, $tamLetra) {
+    color: $colorLetra;
+    background-image: $colorFondo;
+    font-size: $tamLetra;
+}
+
+.textoPrimario{
+    @include textoPrimarioMix( ,linear-gradient(90deg,$violet,$cyanPink 50%), 30px);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.textoBlanco{
+    @include textoPrimarioMix($white, , );
+    text-align: center;
+}
+
+.textoRosa{
+    @include textoPrimarioMix($cyanPink, , );
+}
